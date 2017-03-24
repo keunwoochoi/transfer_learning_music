@@ -13,8 +13,8 @@ Repo for paper "Transfer learning for music classification and regression tasks"
   - [Urbansound8K](https://serv.cusp.nyu.edu/projects/urbansounddataset/urbansound8k.html)
 
 * Prerequisite
-  - [Keras 1.2.2](https://github.com/fchollet/keras/tree/1.2.2/keras) *NOT THE MOST RECENT VERSION*
-  - [Kapre 0.0.3](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) or clone the repo and `$ git checkout a3bde3e` *NOT THE MOST RECENT VERSION*
+  - [Keras 1.2.2](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
+  - [Kapre 0.0.3](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) or clone the repo and `$ git checkout a3bde3e` (*NOT THE MOST RECENT VERSION*)
   - Sckikt learn, pandas.
 
 ## Usage
