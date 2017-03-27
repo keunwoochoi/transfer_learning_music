@@ -15,7 +15,7 @@ Repo for paper "Transfer learning for music classification and regression tasks"
 * Prerequisite
   - [Keras 1.2.2](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
   - [Kapre 0.0.3](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) or clone the repo and `$ git checkout a3bde3e` (*NOT THE MOST RECENT VERSION*)
-  - Sckikt learn, pandas.
+  - Sckikt learn, Pandas, Numpy,..
 
 ## Usage
 
@@ -24,6 +24,7 @@ Repo for paper "Transfer learning for music classification and regression tasks"
 * `2_main_knn_svm_transfer`: Do SVM
 * `3. knn and svm (with AveragePooling) results plots`: Plot results
 
-## Link
-  Paper link will added soon.
+## Links
+ - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md)
+ - Paper: coming soon
   
