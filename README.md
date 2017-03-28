@@ -29,5 +29,13 @@ Repo for paper "Transfer learning for music classification and regression tasks"
 
 ## Links
  - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md)
- - Paper: coming soon
+ - [arXiv 1703.09179, Transfer Learning for Music Classification and Regression tasks](https://arxiv.org/abs/1703.09179)
+ ```
+@misc{choi2017transfer,
+  title={Transfer learning for music classification and regression tasks},
+  author={Choi, Keunwoo and Fazekas, George and Sandler, Mark and Cho, Kyunghyun},
+  journal={https://arxiv.org/abs/1703.09179},
+  year={2017}
+}
+ ```
   
