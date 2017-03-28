@@ -30,6 +30,7 @@ Repo for paper "Transfer learning for music classification and regression tasks"
 ## Links
  - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md)
  - [arXiv 1703.09179, Transfer Learning for Music Classification and Regression tasks](https://arxiv.org/abs/1703.09179)
+ - [Blog article](https://keunwoochoi.wordpress.com/2017/03/28/paper-is-out-transfer-learning-for-music-classification-and-regression-tasks-and-behind-the-scene-negative-results-etc/) 
  ```
 @misc{choi2017transfer,
   title={Transfer learning for music classification and regression tasks},
