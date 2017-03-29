@@ -17,7 +17,15 @@ Repo for paper "Transfer learning for music classification and regression tasks"
 
 * Prerequisite
   - [Keras 1.2.2](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
-  - [Kapre 0.0.3](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) or clone the repo and `$ git checkout a3bde3e` (*NOT THE MOST RECENT VERSION*)
+  - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
+  
+```
+$ git clone https://github.com/keunwoochoi/kapre.git
+$ cd kapre
+$ git checkout a3bde3e
+$ python setup.py install
+```
+
   - Sckikt learn, Pandas, Numpy,..
 
 ## Usage
