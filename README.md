@@ -2,6 +2,7 @@
 
 Repo for paper "Transfer learning for music classification and regression tasks"
 
+![diagram](https://github.com/keunwoochoi/transfer_learning_music/blob/master/diagram.png "diagram")
 ![results](https://github.com/keunwoochoi/transfer_learning_music/blob/master/results.png "results")
 
 
