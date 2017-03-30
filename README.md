@@ -1,6 +1,6 @@
 # transfer_learning_music
 
-Repo for paper "Transfer learning for music classification and regression tasks"
+Repo for paper ["Transfer learning for music classification and regression tasks"](https://arxiv.org/abs/1703.09179)
 
 ![diagram](https://github.com/keunwoochoi/transfer_learning_music/blob/master/diagram.png "diagram")
 ![results](https://github.com/keunwoochoi/transfer_learning_music/blob/master/results.png "results")
@@ -17,7 +17,7 @@ Repo for paper "Transfer learning for music classification and regression tasks"
   - [Urbansound8K](https://serv.cusp.nyu.edu/projects/urbansounddataset/urbansound8k.html)
 
 * Prerequisite
-  - [Keras 1.2.2](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
+  - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
   
 ```
@@ -38,7 +38,7 @@ $ python setup.py install
 
 ## Links
  - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md)
- - [arXiv 1703.09179, Transfer Learning for Music Classification and Regression tasks](https://arxiv.org/abs/1703.09179)
+ - [Paper: arXiv 1703.09179, Transfer Learning for Music Classification and Regression tasks](https://arxiv.org/abs/1703.09179)
  - [Blog article](https://keunwoochoi.wordpress.com/2017/03/28/paper-is-out-transfer-learning-for-music-classification-and-regression-tasks-and-behind-the-scene-negative-results-etc/) 
  ```
 @misc{choi2017transfer,
