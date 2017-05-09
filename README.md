@@ -5,7 +5,7 @@ Repo for paper ["Transfer learning for music classification and regression tasks
 ![diagram](https://github.com/keunwoochoi/transfer_learning_music/blob/master/diagram.png "diagram")
 ![results](https://github.com/keunwoochoi/transfer_learning_music/blob/master/results.png "results")
 
-# Mode 1/1. To use the pre-trained convnet feature extractor
+# Mode 1/2. To use the pre-trained convnet feature extractor
 
 probably for your own work.
 
