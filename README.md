@@ -5,7 +5,36 @@ Repo for paper ["Transfer learning for music classification and regression tasks
 ![diagram](https://github.com/keunwoochoi/transfer_learning_music/blob/master/diagram.png "diagram")
 ![results](https://github.com/keunwoochoi/transfer_learning_music/blob/master/results.png "results")
 
+# Mode 1/1. To use the same feature extractor
+## Prequisite (Same as mode 2 except datasets)
+  - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
+  - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
+  
+```
+$ git clone https://github.com/keunwoochoi/kapre.git
+$ cd kapre
+$ git checkout a3bde3e
+$ python setup.py install
+```
 
+## Usage
+```
+$ python easy_feature_extraction.py audio_paths.txt some/path/features.npy
+```
+where `audio_path.txt` are line-by-line audio paths and `some/path/features.npy` is a path to save the result.
+
+E.g., `audio_path.txt` : 
+```
+blah/a.mp3
+blahblah/234.wav
+some/other.c.mp3
+```
+
+Then load the `.npy` file. The features are size of `(num_songs, 160)`.
+
+
+
+# Mode 2/2. To reproduce the paper
 ## Prequisite
 
 * Download datasets:
@@ -36,6 +65,7 @@ $ python setup.py install
 * `2_main_knn_svm_transfer`: Do SVM
 * `3. knn and svm (with AveragePooling) results plots`: Plot results
 
+# Common
 ## Links
  - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md)
  - [Paper: arXiv 1703.09179, Transfer Learning for Music Classification and Regression tasks](https://arxiv.org/abs/1703.09179)

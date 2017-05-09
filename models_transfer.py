@@ -25,7 +25,6 @@ SR = 12000
 
 def build_convnet_model(args, last_layer=True, sr=None):
     ''' '''
-    start = time.time()
     # ------------------------------------------------------------------#
     tf = args.tf_type
     normalize = args.normalize
@@ -34,19 +33,9 @@ def build_convnet_model(args, last_layer=True, sr=None):
     decibel = args.decibel
     model = raw_vgg(args, tf=tf, normalize=normalize, decibel=decibel,
                     last_layer=last_layer, sr=sr)
-    for layer in model.layers:
-        if layer.name in ['ConvBNEluDr']:
-            layer.summary()
-            layer.count_params()
 
-    model.summary()
-    model.count_params()
-
-    print ' ---->>--- ready to compile keras model ---'
     model.compile(optimizer=keras.optimizers.Adam(lr=5e-3),
                   loss='binary_crossentropy')
-    print "--- keras model was built, took %d seconds ---" % (time.time() - start)
-    # pdb.set_trace()
     return model
 
 
