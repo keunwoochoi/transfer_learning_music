@@ -37,7 +37,6 @@ some/other.c.mp3
 Then load the `.npy` file. The features are size of `(num_songs, 160)`.
 
 
-
 # Mode 2/2. To reproduce the paper
 ## Prequisite
 
@@ -73,14 +72,14 @@ $ python setup.py install
  - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md) that I used for the training
  - [Paper: arXiv 1703.09179, Transfer Learning for Music Classification and Regression tasks](https://arxiv.org/abs/1703.09179)
  - [Blog article](https://keunwoochoi.wordpress.com/2017/03/28/paper-is-out-transfer-learning-for-music-classification-and-regression-tasks-and-behind-the-scene-negative-results-etc/) 
- ```
 
-#### Citation:
+### Citation:
+```
 @misc{choi2017transfer,
   title={Transfer learning for music classification and regression tasks},
   author={Choi, Keunwoo and Fazekas, George and Sandler, Mark and Cho, Kyunghyun},
   journal={https://arxiv.org/abs/1703.09179},
   year={2017}
 }
- ```
+```
   
