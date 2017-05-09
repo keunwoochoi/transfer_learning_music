@@ -1,6 +1,6 @@
 # transfer_learning_music
 
-Repo for paper ["Transfer learning for music classification and regression tasks"](https://arxiv.org/abs/1703.09179)
+Repo for paper ["Transfer learning for music classification and regression tasks"](https://arxiv.org/abs/1703.09179) by Keunwoo Choi et al.
 
 ![diagram](https://github.com/keunwoochoi/transfer_learning_music/blob/master/diagram.png "diagram")
 ![results](https://github.com/keunwoochoi/transfer_learning_music/blob/master/results.png "results")
@@ -66,13 +66,13 @@ $ python setup.py install
 * `2_main_knn_svm_transfer`: Do SVM
 * `3. knn and svm (with AveragePooling) results plots`: Plot results
 
-# Common
+# Appendix
 ## Links
  - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md) that I used for the training
  - [Paper: arXiv 1703.09179, Transfer Learning for Music Classification and Regression tasks](https://arxiv.org/abs/1703.09179)
  - [Blog article](https://keunwoochoi.wordpress.com/2017/03/28/paper-is-out-transfer-learning-for-music-classification-and-regression-tasks-and-behind-the-scene-negative-results-etc/) 
 
-### Citation:
+## Citation:
 ```
 @misc{choi2017transfer,
   title={Transfer learning for music classification and regression tasks},
