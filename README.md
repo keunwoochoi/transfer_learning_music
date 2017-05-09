@@ -24,7 +24,7 @@ $ python setup.py install
 ```
 $ python easy_feature_extraction.py audio_paths.txt some/path/features.npy
 ```
-where `audio_path.txt` are line-by-line audio paths and `some/path/features.npy` is a path to save the result.
+where `audio_path.txt` is line-by-line audio paths and `some/path/features.npy` is the path to save the result.
 
 E.g., `audio_path.txt` : 
 ```
