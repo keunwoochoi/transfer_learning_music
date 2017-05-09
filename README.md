@@ -10,7 +10,7 @@ Repo for paper ["Transfer learning for music classification and regression tasks
 probably for your own work.
 
 
-## Prequisite (Same as mode 2 except datasets)
+## Prerequisite (Same as mode 2 except datasets)
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
   
