@@ -9,8 +9,7 @@ Repo for paper ["Transfer learning for music classification and regression tasks
 
 probably for your own work.
 
-
-## Prerequisite (Same as mode 2 except datasets)
+## Prerequisites (Same as mode 2 except datasets)
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
   
@@ -38,7 +37,7 @@ Then load the `.npy` file. The features are size of `(num_songs, 160)`.
 
 
 # Mode 2/2. To reproduce the paper
-## Prequisite
+## Prequisites
 
 * Download datasets:
   - [Extended ballroom](http://anasynth.ircam.fr/home/media/ExtendedBallroom/)
@@ -48,7 +47,7 @@ Then load the `.npy` file. The features are size of `(num_songs, 160)`.
   - [Jamendo singing voice](http://www.mathieuramona.com/wp/data/jamendo/)
   - [Urbansound8K](https://serv.cusp.nyu.edu/projects/urbansounddataset/urbansound8k.html)
 
-* Prerequisite
+* Prerequisites
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
 
