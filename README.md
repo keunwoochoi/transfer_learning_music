@@ -5,7 +5,11 @@ Repo for paper ["Transfer learning for music classification and regression tasks
 ![diagram](https://github.com/keunwoochoi/transfer_learning_music/blob/master/diagram.png "diagram")
 ![results](https://github.com/keunwoochoi/transfer_learning_music/blob/master/results.png "results")
 
-# Mode 1/1. To use the same feature extractor
+# Mode 1/1. To use the pre-trained convnet feature extractor
+
+probably for your own work.
+
+
 ## Prequisite (Same as mode 2 except datasets)
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
@@ -48,15 +52,14 @@ Then load the `.npy` file. The features are size of `(num_songs, 160)`.
 * Prerequisite
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
-  
+
 ```
 $ git clone https://github.com/keunwoochoi/kapre.git
 $ cd kapre
 $ git checkout a3bde3e
 $ python setup.py install
 ```
-
-  - Sckikt learn, Pandas, Numpy,..
+  - Optionally, `Sckikt learn, Pandas, Numpy`,.. for your convenience.
 
 ## Usage
 
@@ -67,10 +70,12 @@ $ python setup.py install
 
 # Common
 ## Links
- - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md)
+ - [Train/valid/test split of MSD](https://github.com/keunwoochoi/MSD_split_for_tagging/blob/master/README.md) that I used for the training
  - [Paper: arXiv 1703.09179, Transfer Learning for Music Classification and Regression tasks](https://arxiv.org/abs/1703.09179)
  - [Blog article](https://keunwoochoi.wordpress.com/2017/03/28/paper-is-out-transfer-learning-for-music-classification-and-regression-tasks-and-behind-the-scene-negative-results-etc/) 
  ```
+
+#### Citation:
 @misc{choi2017transfer,
   title={Transfer learning for music classification and regression tasks},
   author={Choi, Keunwoo and Fazekas, George and Sandler, Mark and Cho, Kyunghyun},
