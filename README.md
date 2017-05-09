@@ -10,10 +10,13 @@ Repo for paper ["Transfer learning for music classification and regression tasks
 For your own music/audio-related work.
 
 ## Prerequisites (Same as mode 2 except datasets)
+  - [Theano](http://deeplearning.net/software/theano/index.html). I used version 0.9.0 but should work with some similar versions.
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
-  - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
+  - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) In short,
   
 ```
+$ pip install theano==0.9
+$ pip install keras==1.2.2
 $ git clone https://github.com/keunwoochoi/kapre.git
 $ cd kapre
 $ git checkout a3bde3e
@@ -48,6 +51,7 @@ Then load the `.npy` file. The features are size of `(num_songs, 160)`.
   - [Urbansound8K](https://serv.cusp.nyu.edu/projects/urbansounddataset/urbansound8k.html)
 
 * Prerequisites
+  - [Theano](http://deeplearning.net/software/theano/index.html). I used version 0.9.0 but should work with some similar versions.
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
 
