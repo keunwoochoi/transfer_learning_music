@@ -7,7 +7,7 @@ Repo for paper ["Transfer learning for music classification and regression tasks
 
 # Mode 1/2. To use the pre-trained convnet feature extractor
 
-probably for your own work.
+For your own music/audio-related work.
 
 ## Prerequisites (Same as mode 2 except datasets)
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
