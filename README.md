@@ -37,7 +37,7 @@ Then load the `.npy` file. The features are size of `(num_songs, 160)`.
 
 
 # Mode 2/2. To reproduce the paper
-## Prequisites
+## Prerequisites
 
 * Download datasets:
   - [Extended ballroom](http://anasynth.ircam.fr/home/media/ExtendedBallroom/)
