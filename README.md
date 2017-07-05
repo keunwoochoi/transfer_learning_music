@@ -12,6 +12,8 @@ For your own music/audio-related work.
 ## Prerequisites (Same as mode 2 except datasets)
   - [Theano](http://deeplearning.net/software/theano/index.html). I used version 0.9.0 but should work with some similar versions.
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
+    - set `image_dim_ordering : th` in `~/keras/keras.json`
+    - set `backend : theano`, too.
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) In short,
   
 ```
@@ -53,6 +55,8 @@ Then load the `.npy` file. The features are size of `(num_songs, 160)`.
 * Prerequisites
   - [Theano](http://deeplearning.net/software/theano/index.html). I used version 0.9.0 but should work with some similar versions.
   - [Keras 1.2.2 (OLD ONE!)](https://github.com/fchollet/keras/tree/1.2.2/keras) (*NOT THE MOST RECENT VERSION*)
+    - set `image_dim_ordering : th` in `~/keras/keras.json`
+    - set `backend : theano`, too.
   - [Kapre OLD VERSION for OLD KERAS](https://github.com/keunwoochoi/kapre/tree/a3bde3e38f62fc5458231198ea2528b752fbb373) by
 
 ```
