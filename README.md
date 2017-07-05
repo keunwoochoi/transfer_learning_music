@@ -82,11 +82,12 @@ $ python setup.py install
 
 ## Citation:
 ```
-@misc{choi2017transfer,
+@inproceedings{choi2017transfer,
   title={Transfer learning for music classification and regression tasks},
   author={Choi, Keunwoo and Fazekas, George and Sandler, Mark and Cho, Kyunghyun},
-  journal={https://arxiv.org/abs/1703.09179},
-  year={2017}
+  booktitle={The 18th International Society of Music Information Retrieval (ISMIR) Conference 2017, Suzhou, China},
+  year={2017},
+  organization={International Society of Music Information Retrieval}
 }
 ```
   
