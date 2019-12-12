@@ -1,0 +1,26 @@
+version: "0.1"
+name: Transfer Learning for Music Classification and Regression Tasks (Keras2 features)
+task: music_genre_classification
+entrypoints:
+  setup: keras2_features:load_models
+  infer: keras2_features:predict
+formats:
+  input: audio_path
+  output: class_probabilities
+test_set: gtzan_genre
+test_ids: data_csv/keras2_features_gtzan_genre_test.txt
+python_dependencies:
+  - keras==2.0.6
+  - git+git://github.com/keunwoochoi/kapre.git@0c37638
+  - librosa==0.5.1
+  - tensorflow==1.2.1
+  - scikit-learn==0.18.0
+  - tqdm
+  - h5py
+system_dependencies:
+  - python-matplotlib
+  - python-numpy
+  - python-scipy
+  - python-pandas
+  - ffmpeg
+operating_system: ubuntu:16.04

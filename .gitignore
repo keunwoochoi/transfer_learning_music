@@ -1,0 +1,5 @@
+*.pyc
+__pycache__
+.mypy_cache
+.ipynb_checkpoints
+keras2-feature-cache

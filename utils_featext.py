@@ -2,7 +2,6 @@ import os
 import sys
 import numpy as np
 import keras
-import models
 # import arg_parser
 from argparse import Namespace
 import pandas as pd
